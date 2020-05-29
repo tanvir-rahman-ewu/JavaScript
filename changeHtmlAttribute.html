@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Javascript can change html attribute</h2>
+    <img id="myImage" src="img/guava.jpg" style="width:50px; height: 50px">
+    <br>
+    <button onclick="mango()">Get Mango</button>
+    <button onclick="guava()">Get Mango</button>
+
+    <script>
+        function mango()
+        {
+            document.getElementById("myImage").src='img/mango.png';
+        }
+        function guava()
+        {
+            document.getElementById("myImage").src='img/guava.jpg';
+        }
+    </script>
+</body>
+</html>
