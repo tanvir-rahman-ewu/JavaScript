@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>My First JavaScript</h1>
+    <p id="date">Here you will see today's date</p>
+    <button onclick="seeDate()">Click me to see date</button>
+
+
+    <script>
+        function seeDate() {
+            document.getElementById("date").innerHTML = Date();
+        }
+    </script>
+</body>
+
+</html>
