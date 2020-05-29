@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="demo">Change my font size</h2>
+    <button onclick="changeFont()">Click me to change font</button>
+
+    <script>
+
+        let x = 0;
+
+        function changeFont()
+        {
+            if(x==0)
+            {
+                document.getElementById("demo").style.fontSize = '35px';
+                x = 1;
+            }
+            else{
+                document.getElementById("demo").style.fontSize = '20px';
+                x = 0;
+            }
+           
+        }
+    </script>
+</body>
+</html>
